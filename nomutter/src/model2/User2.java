@@ -22,3 +22,5 @@ public class User2 implements Serializable {
 		return pass;
 	}
 }
+
+//修正１
