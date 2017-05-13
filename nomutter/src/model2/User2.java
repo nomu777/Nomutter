@@ -10,11 +10,14 @@ public class User2 implements Serializable {
 	private String name;         //カプセル化しておく
 	private String pass;         //カプセル化しておく
 	
+	//メソッドの呼び出し
 	public User2() {}     //引数を持たないUser()メソッドから呼び出された場合
 	public User2(String name, String pass) {
 		this.name = name;
 		this.pass = pass;
 	}
+	
+	//名前、パスワードの取得
 	public String getName() {
 		return name;
 	}
@@ -22,5 +25,3 @@ public class User2 implements Serializable {
 		return pass;
 	}
 }
-
-//修正１
